@@ -398,11 +398,13 @@
     </style>
 
     <link href={{ asset('css/app.css') }} rel="stylesheet">
+    @livewireStyles
 </head>
 
 <body class="container mx-auto">
     <h1 class="w-full min-h-screen flex flex-col items-center justify-center text-2xl font-bold">Laravel 8 + Liveware +
         TailwindCSS</h1>
+    @livewireScripts
 </body>
 
 </html>
